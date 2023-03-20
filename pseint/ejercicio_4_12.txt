@@ -1,0 +1,34 @@
+Algoritmo ejercicio_4_12
+	// programa   que dice que dia de la semana es segun el dia del mes
+	//version 1.0 
+	//28/02/2023
+	// programado por:Juan sebastian ortiz
+	//definicion de variables
+	definir d como entero
+	//inicializacion variable
+	d = 0
+	//lectura de datos
+	escribir "que dia del mes es "
+	leer d
+	//condicionales e inpresion de resultados
+	Segun d Hacer
+		1,8,15,22:
+			escribir"es el dia lunes "
+		2,9,16,23:
+			escribir"es el dia martes "
+		3,10,17,24:
+			escribir"es el dia miercoles "
+		4,11,18,25:
+			escribir"es el dia jueves" 
+		5,12,19,26:
+			escribir"es el dia viernes"
+		6,13,20,27:
+			escribir"es el dia sabado"
+		7,14,21,28:
+			escribir"es el dia Domingo "
+			
+		De Otro Modo:
+			escribir "no es el mes de febrero "
+	Fin Segun
+	
+FinAlgoritmo

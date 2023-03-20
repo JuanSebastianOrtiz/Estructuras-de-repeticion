@@ -1,0 +1,26 @@
+Algoritmo ejercicio_4_8
+	//programa que calcula el area de cuualquier triangulo  //
+	//desarrollador juan sebastian ortiz ibarra //
+	// fecha 7/03/2023//
+	//version 1.0//
+	//definicion de variables
+	definir l1,l2,l3,sp,area como real 
+	//inicializacion de las variables
+	l1=0.0
+	l2=0.0
+	l3=0.0
+	sp=0.0
+	area=0.0
+	//captura de datos
+	escribir"escriba el lado 1 "
+	leer l1 
+	escribir"escriba el lado 2 "
+	leer l2 
+	escribir"escriba el lado 3 "
+	leer l3
+	//procesos aritmeticos
+	sp= (l1+l2+l3)/2
+	area = (rc(sp *( (sp -l1)*(sp-l2)*(sp-l3))))
+//impresion del resultado
+	escribir "El area del triangulo es: " area // se recuerda que si o si tiene que tener que saber cuanto miden los 3 lados del triangulo
+FinAlgoritmo

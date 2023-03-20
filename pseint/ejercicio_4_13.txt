@@ -1,0 +1,42 @@
+Algoritmo ejercicio_4_13
+	// programa que define el dia del mes de febrero de febrero es segun el primer dia que escribe el usuario 
+	//version 1.0 
+	//28/02/2023
+	// programado por:Juan sebastian ortiz
+	//definicion de variables
+	definir d como caracter
+	definir n como entero
+//inicializacion de las variables 
+d=""
+n= 0	
+//captura de datos
+escribir "que dia de la semana fue el primero del mes de febrero ? "//escribir el dia de la semana en minusculas 
+	leer d
+	escribir "que dia de el mes quiere averiguar"// tiene que ser un numero
+	leer n
+	si d = "miercoles" o d = "Miercoles"   entonces 
+	//impresion de resultados y condicionales
+	Segun n Hacer
+		1,8,15,22:
+			escribir"es el dia miercoles "
+		2,9,16,23:
+			escribir"es el dia jueves"
+		3,10,17,24:
+			escribir"es el dia viernes "
+		4,11,18,25:
+			escribir"es el dia sabado" 
+		5,12,19,26:
+			escribir"es el dia domingo "
+		6,13,20,27:
+			escribir"es el dia lunes"
+		7,14,21,28:
+			escribir"es el dia martes "
+		
+		De Otro Modo:
+			escribir "no es el mes de febrero "
+	Fin Segun
+sino 
+	escribir "el dia escrito no perteneces al dia 1 del mes de febrero  "
+	finsi
+
+FinAlgoritmo
