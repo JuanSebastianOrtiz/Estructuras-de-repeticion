@@ -17,7 +17,7 @@ Algoritmo ejercicio_4_12
 		2,9,16,23:
 			escribir"es el dia martes "
 		3,10,17,24:
-			escribir"es el dia miercoles "
+			escribir"es el dia miercoles " //formula impuestos si el salario bruto es mayor que 2000 euros y menor a 2220 
 		4,11,18,25:
 			escribir"es el dia jueves" 
 		5,12,19,26:

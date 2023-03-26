@@ -1,7 +1,4 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
-
+ 
 from math import sqrt
 
 if __name__ == '__main__':
@@ -34,19 +31,19 @@ if __name__ == '__main__':
 	if a==0:
 		print("No es una ecuacion de segundo grado")
 	else:
-		d = b*b-4*a*c
+		d = b*b-4*a*c #discriminante
 		if d==0:
-			x1 = -b/(2*a)
+			x1 = -b/(2*a) #tanto x1 como x2 son iguales caso tal que la discriminante sea = 0
 			x2 = x1
 		else:
 			if d>0:
 				x1 = (-b+sqrt(d))/(2*a)
-				x2 = (-b-sqrt(d))/(2*a)
+				x2 = (-b-sqrt(d))/(2*a)   #una ecuacion de segundo grado tiene 2 resultados que son los cortes en el eje x
 				print(x1,x2)
 			else:
 				r = (-b)/(2*a)
-				i = sqrt(abs(d))/(2*a)
+				i = sqrt(abs(d))/(2*a)    #formula resultados imaginarios
 				print(r,"+",i,"i")
-				print(r,"-",i,"i")
+				print(r,"-",i,"i")     #escribira esto donde el resultado de x1 o x2 sean complejos
 	# lectura de datos
 

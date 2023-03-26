@@ -27,7 +27,7 @@ if __name__ == '__main__':
 			print("es el dia miercoles ")
 		elif n==2 or n==9 or n==16 or n==23:
 			print("es el dia jueves")
-		elif n==3 or n==10 or n==17 or n==24:
+		elif n==3 or n==10 or n==17 or n==24:         # segun el valor que se digite en la variable d se imprimira el resultado que satisfaga el numero digitado en la variable
 			print("es el dia viernes ")
 		elif n==4 or n==11 or n==18 or n==25:
 			print("es el dia sabado")

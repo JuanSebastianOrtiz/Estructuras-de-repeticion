@@ -20,7 +20,7 @@ Algoritmo ejercicio_4_8
 	leer l3
 	//procesos aritmeticos
 	sp= (l1+l2+l3)/2
-	area = (rc(sp *( (sp -l1)*(sp-l2)*(sp-l3))))
+	area = (rc(sp *( (sp -l1)*(sp-l2)*(sp-l3))))//formula de heron utiliza el semiperimetro y funciona para  resolver cualquier tipo de triangulo
 //impresion del resultado
-	escribir "El area del triangulo es: " area // se recuerda que si o si tiene que tener que saber cuanto miden los 3 lados del triangulo
+	escribir "El area del triangulo es: " area //  se recuerda, se tiene  que saber cuanto miden los 3 lados del triangulo sino no se puede aplicar esta formula
 FinAlgoritmo

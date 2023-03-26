@@ -1,6 +1,3 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
 
 
 if __name__ == '__main__':
@@ -8,6 +5,7 @@ if __name__ == '__main__':
 	# version 1.0 
 	# 28/02/2023
 	# programado por:Juan sebastian ortiz
+	
 	# definicion de variables
 	d = int()
 	# inicializacion variable
@@ -22,7 +20,7 @@ if __name__ == '__main__':
 		print("es el dia martes ")
 	elif d==3 or d==10 or d==17 or d==24:
 		print("es el dia miercoles ")
-	elif d==4 or d==11 or d==18 or d==25:
+	elif d==4 or d==11 or d==18 or d==25:  #segun el valor digitado en la variable d se imprimira el resultado que satisface el valor escrito en d
 		print("es el dia jueves")
 	elif d==5 or d==12 or d==19 or d==26:
 		print("es el dia viernes")

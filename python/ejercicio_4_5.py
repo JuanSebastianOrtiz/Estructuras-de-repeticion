@@ -1,6 +1,4 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+  
 
 
 if __name__ == '__main__':
@@ -30,24 +28,24 @@ if __name__ == '__main__':
 	nombre = input()
 	print("Horas trabajadas semanales")
 	ht = int(input())
-	print("¿cuanto es valor de la hora trabajada?")
+	print("Â¿cuanto es valor de la hora trabajada?")
 	vh = float(input())
 	# condicionales y procesos aritmeticos
 	if ht<=35:
-		sb = ht*vh
+		sb = ht*vh #formulas salario bruto  en caso de que las horas sean menores o iguales a 35  
 	else:
 		if ht>35:
 			sb = 35*vh
-			vhe = (ht+35)*1.5
+			vhe = (ht+35)*1.5#formulas horas extras cuando el salario bruto  es mayor a 35
 			sb = sb+vhe
 		if sb<=2000:
 			print("Salario libre de impuestos ",sb)
 		else:
 			if sb>2000 and sb<=2220:
-				vimp = (sb-2000)*0.20
+				vimp = (sb-2000)*0.20 #formula impuestos si el salario bruto es mayor que 2000 euros y menor a 2220 
 			else:
 				if sb>2220:
-					vimp = (sb-2220)*0.30+(220*0.20)
+					vimp = (sb-2220)*0.30+(220*0.20)#formula impuestos si el salario bruto es mayor que 2220  
 	sp = sb-vimp
 	# impresion de resultados 
 	print("empleado con nombre: ",nombre)

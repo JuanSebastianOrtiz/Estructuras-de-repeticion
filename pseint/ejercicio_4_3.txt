@@ -16,7 +16,7 @@ x=0.0
 	escribir "Cual es el valor de b "
 	leer b
 	//operaciones aritmeticas
-	x =(-b)/a
+	x =(-b)/a  // despeje de la ecuacion
 	escribir "el resultado de la ecuacion es: " x
 	
 FinAlgoritmo

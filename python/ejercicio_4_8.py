@@ -1,6 +1,4 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+ 
 
 from math import sqrt
 
@@ -30,8 +28,8 @@ if __name__ == '__main__':
 	l3 = float(input())
 	# procesos aritmeticos
 	sp = (l1+l2+l3)/2
-	area = (sqrt(sp*((sp-l1)*(sp-l2)*(sp-l3))))
+	area = (sqrt(sp*((sp-l1)*(sp-l2)*(sp-l3))))  # formula de heron utiliza el semiperimetro y funciona para  resolver cualquier tipo de triangulo
 	# impresion del resultado
-	# se recuerda que si o si tiene que tener que saber cuanto miden los 3 lados del triangulo
+	# se recuerda, se tiene  que saber cuanto miden los 3 lados del triangulo sino no se puede aplicar esta formula
 	print("El area del triangulo es: ",area)
 
